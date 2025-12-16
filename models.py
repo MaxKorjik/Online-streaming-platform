@@ -8,4 +8,4 @@ class User(Base):
     id = Column(Integer, primary_key=True, index=True)
     username = Column(String, index=True)
     password = Column(String, unique=True)
-    
+    avatar_url = Column(String)
